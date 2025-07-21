@@ -32,17 +32,4 @@ Features
 
 
 
-Getting Started
-
-
-
-1. Clone the Repository
-
-```bash
-
-git clone https://github.com/your-username/mcp-chatbot.git
-
-cd mcp-chatbot
-
-
 
