@@ -1,0 +1,23 @@
+{
+  "system_prompt": "You are a helpful assistant.",
+  "user_profile": {
+    "name": "Keerthana",
+    "language": "English",
+    "preferences": ["detailed", "technical"]
+  },
+  "conversation_history": [
+    {
+      "role": "user",
+      "content": "What's the weather like today?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm not connected to the internet, but you can check online!"
+    }
+  ],
+  "memory": {
+    "job": "developer",
+    "project": "AI chatbot"
+  },
+  "tools": ["calculator", "sql_helper"]
+}
