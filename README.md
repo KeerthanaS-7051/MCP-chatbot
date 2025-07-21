@@ -1,4 +1,4 @@
-\# MCP Chatbot - Intelligent Data Query Assistant
+\MCP Chatbot - Intelligent Data Query Assistant
 
 
 
@@ -10,7 +10,7 @@ This is an AI-powered chatbot built using the \*\*Model Context Protocol (MCP)\*
 
 
 
-\## Features
+\Features
 
 
 
@@ -32,11 +32,11 @@ This is an AI-powered chatbot built using the \*\*Model Context Protocol (MCP)\*
 
 
 
-\## Getting Started
+\ Getting Started
 
 
 
-\### 1. Clone the Repository
+\ 1. Clone the Repository
 
 ```bash
 
