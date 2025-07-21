@@ -2,7 +2,7 @@ MCP Chatbot - Intelligent Data Query Assistant
 
 
 
-This is an AI-powered chatbot built using the \*\*Model Context Protocol (MCP)\*\* architecture. It enables users to ask natural language questions and receive intelligent responses based on backend data using \*\*LangChain\*\*, \*\*LLaMA\*\*, and \*\*Streamlit\*\*.
+This is an AI-powered chatbot built using the Model Context Protocol (MCP) architecture. It enables users to ask natural language questions and receive intelligent responses based on backend data using LangChain, LLaMA, and Streamlit.
 
 
 
