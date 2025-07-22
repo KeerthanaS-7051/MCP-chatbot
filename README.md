@@ -1,4 +1,4 @@
-MCP Chatbot - Intelligent Data Query Assistant
+# MCP Chatbot - Intelligent Data Query Assistant
 
 
 
@@ -10,43 +10,49 @@ This is an AI-powered chatbot built using the Model Context Protocol (MCP) archi
 
 
 
-Features
+## Features
 
 
 
-\- Conversational AI using LLaMA 3 (via Ollama/Together AI)
+ Conversational AI using LLaMA 3 (via Ollama/Together AI)
 
-\- Memory-powered chat with context awareness
+ Memory-powered chat with context awareness
 
-\- Connects to structured databases (like SQLite)
+ Connects to structured databases (like SQLite)
 
-\- Built using LangChain for prompt engineering and chaining
+ Built using LangChain for prompt engineering and chaining
 
-\- FastAPI backend + Streamlit frontend
+ FastAPI backend + Streamlit frontend
 
-\- Model Context Protocol (MCP) for context isolation and memory
+ Model Context Protocol (MCP) for context isolation and memory
 
 
 
 ---
-How to Run
+## How to Run
 
-\-Ensure LLaMA is running
+ Ensure LLaMA is running or run
 
-\-In terminal run the MCP server
-'''bash 
-cd yourFileLocation
+``` bash
+ollama run llama3:8b
+``` 
+
+ In terminal run the MCP server
+
+``` bash 
+cd path\to\your\project
 venv\Scripts\activate
 uvicorn main:app --reload
-'''
+``` 
 
-\-Run the streamlit application (or) chatbot directly in terminal
-''' bash
-cd yourFileLocation
+ Using Streamlit Web UI chatbot directly in terminal
+
+``` bash
 streamlit run streamlit_app.py
-(or)
+``` 
+
+ Using CLI Chatbot
+
+``` bash
 python run chatbot.py
-'''
-
-
-
+```
