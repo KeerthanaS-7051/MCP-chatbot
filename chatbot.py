@@ -2,11 +2,16 @@ import requests
 import subprocess
 import sys
 import io
+import uuid
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 MCP_URL = "http://localhost:8000"
-session_id = "user123"
+
+session_id = input("Enter your session ID (leave blank to generate new): ").strip()
+if not session_id:
+    session_id = str(uuid.uuid4())
+print(f"Your session ID: {session_id}")
 
 def get_context():
     res = requests.get(f"{MCP_URL}/context/{session_id}")
