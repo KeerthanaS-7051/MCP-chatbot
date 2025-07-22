@@ -1,6 +1,7 @@
 import streamlit as st
 import requests
 import subprocess
+import uuid
 
 MCP_URL = "http://localhost:8000"
 if "session_id" not in st.session_state:
