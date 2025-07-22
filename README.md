@@ -29,6 +29,20 @@ Features
 
 
 ---
+How to Run
+
+\-Ensure LLaMA is running
+
+\-In terminal run the MCP server
+cd yourFileLocation
+venv\Scripts\activate
+uvicorn main:app --reload
+
+\-Run the streamlit application (or) chatbot directly in terminal
+cd yourFileLocation
+streamlit run streamlit_app.py
+(or)
+python run chatbot.py
 
 
 
