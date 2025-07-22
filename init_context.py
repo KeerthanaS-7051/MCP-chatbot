@@ -1,4 +1,5 @@
 import requests
+import uuid
 
 MCP_URL = "http://localhost:8000/context"
 session_id = input("Enter session ID (or leave blank to generate): ")
