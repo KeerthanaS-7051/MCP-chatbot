@@ -3,7 +3,13 @@ import requests
 import subprocess
 
 MCP_URL = "http://localhost:8000"
-session_id = "user123"
+if "session_id" not in st.session_state:
+    st.session_state.session_id = st.text_input("Enter your session ID (or leave blank to auto-generate):")
+    if st.session_state.session_id == "":
+        st.session_state.session_id = str(uuid.uuid4())
+        st.success(f"Generated Session ID: {st.session_state.session_id}")
+
+session_id = st.session_state.session_id
 
 def get_context():
     res = requests.get(f"{MCP_URL}/context/{session_id}")
