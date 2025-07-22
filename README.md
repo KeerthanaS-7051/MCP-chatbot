@@ -34,16 +34,19 @@ How to Run
 \-Ensure LLaMA is running
 
 \-In terminal run the MCP server
+'''bash 
 cd yourFileLocation
 venv\Scripts\activate
 uvicorn main:app --reload
+'''
 
 \-Run the streamlit application (or) chatbot directly in terminal
+''' bash
 cd yourFileLocation
 streamlit run streamlit_app.py
 (or)
 python run chatbot.py
-
+'''
 
 
 
