@@ -1,7 +1,10 @@
 import requests
 
 MCP_URL = "http://localhost:8000/context"
-session_id = "user123"
+session_id = input("Enter session ID (or leave blank to generate): ")
+if not session_id:
+    session_id = str(uuid.uuid4())
+    print("Generated session_id:", session_id)
 
 data = {
     "session_id": session_id,
